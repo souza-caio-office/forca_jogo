@@ -110,7 +110,7 @@ function comparaListas(letra) {
         var tentativasRestantes = document.getElementById("box-tentativas")
         tentativasRestantes.innerHTML = "TENTATIVAS : " + tentativas
         if (tentativas == 0) {
-            resposta.innerHTML = "VOCÊ PERDEU  ; -- A PALAVRA SECRETA ERA - " + palavraSecreta
+            resposta.innerHTML = "VOCÊ  PERDEU  ; -- A PALAVRA SECRETA ERA - " + palavraSecreta
         }
     } else {
         for (i = 0; i < palavraSecretaPorLetra.length; i++) {
@@ -128,7 +128,7 @@ function comparaListas(letra) {
         }
     }
     if (vitoria == "sim") {
-        resposta.innerHTML = "PARABENS VOCÊ GANHOU "
+        resposta.innerHTML = "PARABENS VOCÊ VENCEU "
         tentativas = 0;
     }
 }
