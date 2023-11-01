@@ -12,9 +12,7 @@ body {
      margin: 0px;
 }
 
-img{
-     height:15px;
-}
+
 
 .box-container {
           display: flex;
@@ -35,7 +33,8 @@ img{
           margin-top: 60px;
      }
 
-
+     
+     
      #box-secreta {
           width: 700px;
           height: 300px;
@@ -46,65 +45,66 @@ img{
           font-size: 1em;
           
      }
-.box-letra {
+     /* .box-letra {
           border: 1px solid #006400; 
           text-align:center;
           box-shadow: 0px 2px 8px #006400;
           cursor:pointer;  
-          width: 26px;
-          height: 26px;
+          width: 40px;
+          height: 40px;
           margin: 7px;
           padding: 5px;
 
           font-size: 0.8em;
+     } */
+     
+     
+     .box-letra {
+          width: 40px;
+          height: 40px;
+          border: 1px solid #006400;
+          margin: 10px;
+          padding: 10px;
+          border-radius: 5px;
+          font-size: 1em;
+          text-align: center;
      }
-
-.box-letra:hover{
-          color:#006400;   
-          font-size: 1.2em;
-          cursor:pointer;
-          margin: 7px;
+     
+     .box-letra:hover{
+          color:	#FFFAFA;
+          font-size: 1.5em;
           padding: 2px;
      }
      
-.letras{
-          border-bottom: 3px solid #C71585; 
-          width: 10px;
-          margin-left: 2px;
-          margin-right: 2px;
+    
+     .letras{
+          border-bottom: 3px solid #FFFAFA;
+          width: 30px;
+          margin-left: 10px;
+          margin-right: 10px;
      }
-     
-#box-tentativas {
-          text-align:start;
-          
-          width: 350px;
-          height: 20px;
+     #box-tentativas {
+          width: 980px;
+          height: 70px;
           margin-top: 20px;
-          padding: 5px 0px;
-          font-size: 1.0em;
+          padding: 10px 0px;
+          font-size: 2em;
+          text-align: center;
      }
 
      #box-resposta {
           text-align:center;
           color: #FFFFFF;
           background-color: 	        none;
-          width: 200px;
-          height: 20px;
+          width: 600px;
+          height: 50px;
           margin-top: 20px;
           padding: 5px 0px;
           font-size: 1em;
           border:1px solid #006400;
      }
      
-     #box-resposta {
-               width: 600px;
-               height: 50px;
-               margin-top: 5px;
-               padding: 10px 0px;
-               font-size: 1.5em;
-               border-radius:5px;
-               margin-bottom: 10px;
-          }
+    
      
      
      
@@ -117,47 +117,9 @@ img{
      height:20px;
               
 }
-     .box-container {
-          width: 100vw;
-     }
-     
-     #palavra-secreta{
-          margin-top: 80px;
-          font-size: 1.5em;
-     }
+
      
      
      
-     .box-letra {
-          width: 40px;
-          height: 40px;
-          border: 1px solid #006400;
-          margin: 10px;
-          padding: 10px;
-          border-radius: 5px;
-          font-size: 1em;
-     }
-     
-     .box-letra:hover{
-          color:	#FFFAFA;
-          font-size: 1.5em;
-          padding: 2px;
-     }
-     
-     .letras{
-          border-bottom: 3px solid #FFFAFA;
-          width: 30px;
-          margin-left: 10px;
-          margin-right: 10px;
-     }
-     
-     #box-tentativas {
-          width: 980px;
-          height: 70px;
-          margin-top: 20px;
-          padding: 10px 0px;
-          font-size: 2em;
-          text-align: center;
-     }
 
 
