@@ -177,7 +177,7 @@ function verificaSeLetraNaoFoiDigitada(letra) {
     return response;
 }
 function mudarStyleLetra(tecla) {
-    document.getElementById(tecla).style.background = "#006400"
+    document.getElementById(tecla).style.background = "#38a346"
     document.getElementById(tecla).style.color = "#FFFFFF"
 }
 function windowRefresh(){
