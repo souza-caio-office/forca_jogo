@@ -1,0 +1,234 @@
+* {
+     box-sizing: border-box;
+     margin: 0;
+     color:white;
+     padding: 0px; 
+     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+body {
+     background-color:	#000000;
+     color:#FFFFFF;
+     margin: 0px;
+}
+
+img{
+     height:15px;
+}
+
+.box-container {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: start;
+          flex-wrap: wrap;
+          width: 95vw;
+     }
+
+ #palavra-secreta{
+          color: white;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: start;
+          font-size: 1.0em;
+          margin-top: 60px;
+     }
+
+#box-secreta {
+          border: 1px solid 	#000000;
+          text-align:center;
+          box-shadow: 0px 2px 8px #6A5ACD;       
+          width: 350px;
+          height: 200px;
+          font-size: 1.0em;
+          margin-top: 10px;
+          padding: 10px;
+     }
+     
+.box-letra {
+          border: 1px solid #006400; 
+          text-align:center;
+          box-shadow: 0px 2px 8px #006400;
+          cursor:pointer;  
+          width: 26px;
+          height: 26px;
+          margin: 7px;
+          padding: 5px;
+
+          font-size: 0.8em;
+     }
+
+.box-letra:hover{
+          color:#006400;   
+          font-size: 1.2em;
+          cursor:pointer;
+          margin: 7px;
+          padding: 2px;
+     }
+     
+.letras{
+          border-bottom: 3px solid #C71585; 
+          width: 10px;
+          margin-left: 2px;
+          margin-right: 2px;
+     }
+     
+#box-tentativas {
+          text-align:start;
+          
+          width: 350px;
+          height: 20px;
+          margin-top: 20px;
+          padding: 5px 0px;
+          font-size: 1.0em;
+     }
+
+#box-resposta {
+          text-align:center;
+          color: #FFFFFF;
+          background-color: 	        none;
+          width: 350px;
+          height: 20px;
+          margin-top: 20px;
+          padding: 5px 0px;
+          font-size: 0.7em;
+          border:1px solid white;
+     }
+     
+
+
+/*Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+@media (min-width: 575.98px) { 
+     img{
+     height:25px;
+}
+     #palavra-secreta{
+          font-size: 1.5em;
+     }
+     
+     #box-secreta {
+          width: 550px;
+          height: 200px;
+          font-size: 1.5em;
+          margin-top: 10px;
+          padding: 10px;
+     }
+     
+     .letras{
+          width: 20px;
+          margin-left: 2px;
+          margin-right: 2px;
+     }
+     
+     #box-tentativas {
+          width: 550px;
+          height: 30px;
+          margin-top: 20px;
+          padding: 5px 0px;
+          font-size: 1.5em;
+     }
+     
+     #box-resposta {
+          width: 15px;
+          height: 30px;
+          margin-top: 20px;
+          padding: 5px 0px;
+          font-size: 1.2em;
+     }
+     
+     .box-letra {
+          width: 250px;
+          height: 46px;
+          margin: 8.5px;
+          padding: 6px;
+          font-size: 1.8em;
+          cursor:pointer;
+          }
+     .box-letra:hover{
+          color:	#FFFAFA;   
+          font-size: 2.0em;
+          cursor:pointer;
+          margin: 8.5px;
+          padding: 2px;
+     }
+     .box-container {
+          width: 95vw;
+     }   
+}
+
+/*Dispositivos small (telefones em modo paisagem, com menos de 768px)*/
+@media (min-width: 767.98px) { 
+    
+}
+
+/*Dispositivos mÊdios (tablets com menos de 992px)*/
+@media (min-width: 991.98px) {
+         img{
+     height:50px;
+              
+}
+     .box-container {
+          width: 95vw;
+          margin:5px 10px;
+     }
+     
+     #palavra-secreta{
+          margin-top: 80px;
+          font-size: 1.5em;
+     }
+     
+     #box-secreta {
+          width: 980px;
+          height: 300px;
+          border: 1px solid 	#006400;
+          margin-top: 30px;
+          padding: 20px;
+          border-radius: 20px;
+          font-size: 2em;
+     }
+     
+     .box-letra {
+          width: 90px;
+          height: 90px;
+          border: 1px solid #006400;
+          margin: 10px;
+          padding: 10px;
+          border-radius: 5px;
+          font-size: 3.5em;
+     }
+     
+     .box-letra:hover{
+          color:	#FFFAFA;
+          font-size: 4.5em;
+          padding: 2px;
+     }
+     
+     .letras{
+          border-bottom: 3px solid #FFFAFA;
+          width: 30px;
+          margin-left: 10px;
+          margin-right: 10px;
+     }
+     
+     #box-tentativas {
+          width: 980px;
+          height: 70px;
+          margin-top: 20px;
+          padding: 10px 0px;
+          font-size: 2em;
+     }
+
+#box-resposta {
+          width: 980px;
+          height: 50px;
+          margin-top: 5px;
+          padding: 10px 0px;
+          font-size: 1.5em;
+          border-radius:5px;
+     }
+}
+
+ #tecla- {
+     width: 53%;
+}
