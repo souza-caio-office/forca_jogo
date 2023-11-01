@@ -12,10 +12,91 @@ saudade
 
 
 */
-var tentativas = 6;
-var palavras = ['DESCARTE CORRETO', 'MEIO AMBIENTE', 'PLASTICO REUTILIZVEL', 'BIOSFERA', 'CACHOEIRA', 'NATUREZA',
-    'PLANTA', 'PRESERVACAO DA MATA', 'FAUNA', 'FLORA', 'AGUA', 'HABITAT',
-    'SOL', 'POLUICAO', 'AQUECIMENTO GLOBAL', 'VANDERLEIA', 'MUDANCA CLIMATICA',
+var tentativas = 7;
+var palavras = [
+   'RECICLAGEM',
+   'PLASTICO',
+   'PAPEL',
+   'VIDRO',
+   'METAL',
+   'SUSTENTABILIDADE',
+   'AMBIENTE',
+   'REAPROVEITAMENTO',
+   'RESIDUOS',
+   'COLETA',
+   'SEPARACAO',
+   'RECICLAVEL',
+   'ECOLOGIA',
+   'CONSCIENTIZACAO',
+   'REUTILIZACAO',
+   'MEIO AMBIENTE',
+   'POLUICAO',
+   'REDUCAO',
+   'DESCARTE',
+   'LIXO',
+   'PLANETA',
+   'ATITUDES',
+   'RENOVAVEL',
+   'ECONOMIA',
+   'PRESERVACAO',
+   'NATURAL',
+   'SUCATA',
+   'EMBALAGEM',
+   'CIDADANIA',
+   'CONSUMO',
+   'DEGRADACAO',
+   'ENERGIA',
+   'RECICLAR',
+   'CICLO',
+   'REVESTIMENTO',
+   'DECOMPOSICAO',
+   'INCINERACAO',
+   'ORGANICO',
+   'CONSCIENTE',
+   'FLORESTA',
+   'RECUPERAR',
+   'OLEO',
+   'RESERVA',
+   'RECURSOS',
+   'POLITICAS',
+   'INICIATIVAS',
+   'ELETRONICOS',
+   'CELULARES',
+   'BATERIAS',
+   'COOPERATIVA',
+   'COLETIVO',
+   'EDUCACAO AMBIENTAL',
+   'INOVACAO',
+   'REDUCAO DE RESIDUOS',
+   'LIXO ELETRONICO',
+   'PRESERVAR',
+   'SANEAMENTO',
+   'CIDADAO',
+   'CONSUMIDOR',
+   'CICLAGEM',
+   'LAMPADAS',
+   'PILHAS',
+   'TONER',
+   'COMPUTADORES',
+   'PNEUS',
+   'COMPOSTAGEM',
+   'COLETA SELETIVA',
+   'INOVACAO',
+   'REAPROVEITAR',
+   'RECUPERAR',
+   'ECONOMIZAR',
+   'RECONSTRUCAO',
+   'MATERIAIS',
+   'INERTES',
+   'TRANSFORMACAO',
+   'FABRICA',
+   'REPROCESSAMENTO',
+   'GERENCIAMENTO',
+   'ECOLOGICO',
+   'DECOMPOSICAO',
+   'BIODEGRADAVEL',
+   'PLANEJAMENTO',
+   'CONSUMIR MENOS'
 ];
 // cria a apalavra secreta
 var palavraSecreta = criarPalavraSecreta();
@@ -110,7 +191,10 @@ function comparaListas(letra) {
         var tentativasRestantes = document.getElementById("box-tentativas")
         tentativasRestantes.innerHTML = "TENTATIVAS : " + tentativas
         if (tentativas == 0) {
-            resposta.innerHTML = "VOCÊ  PERDEU  ; -- A PALAVRA SECRETA ERA - " + palavraSecreta
+            resposta.innerHTML = "VOCÊ  PERDEU &#x1F61E   A PALAVRA SECRETA ERA - " + palavraSecreta
+            setTimeout(()=>{
+                windowRefresh()
+            }, 5000)
         }
     } else {
         for (i = 0; i < palavraSecretaPorLetra.length; i++) {
@@ -127,9 +211,12 @@ function comparaListas(letra) {
             vitoria = "nao"
         }
     }
-    if (vitoria == "sim") {
-        resposta.innerHTML = "PARABENS VOCÊ VENCEU "
+    if (vitoria == "sim" ) {
+        resposta.innerHTML = "PARABENS VOCÊ VENCEU &#x1F609 "
         tentativas = 0;
+            setTimeout(()=>{
+                windowRefresh()
+            }, 5000)
     }
 }
 

@@ -35,17 +35,17 @@ img{
           margin-top: 60px;
      }
 
-#box-secreta {
-          border: 1px solid 	#000000;
-          text-align:center;
-          box-shadow: 0px 2px 8px #6A5ACD;       
-          width: 350px;
-          height: 200px;
-          font-size: 1.0em;
-          margin-top: 10px;
-          padding: 10px;
+
+     #box-secreta {
+          width: 700px;
+          height: 300px;
+          border: 1px solid 	#006400;
+          margin-top: 50px;
+          padding: 30px;
+          border-radius: 20px;
+          font-size: 1em;
+          
      }
-     
 .box-letra {
           border: 1px solid #006400; 
           text-align:center;
@@ -84,93 +84,41 @@ img{
           font-size: 1.0em;
      }
 
-#box-resposta {
+     #box-resposta {
           text-align:center;
           color: #FFFFFF;
           background-color: 	        none;
-          width: 350px;
+          width: 200px;
           height: 20px;
           margin-top: 20px;
           padding: 5px 0px;
-          font-size: 0.7em;
-          border:1px solid white;
-     }
-     
-
-
-/*Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
-@media (min-width: 575.98px) { 
-     img{
-     height:25px;
-}
-     #palavra-secreta{
-          font-size: 1.5em;
-     }
-     
-     #box-secreta {
-          width: 550px;
-          height: 200px;
-          font-size: 1.5em;
-          margin-top: 10px;
-          padding: 10px;
-     }
-     
-     .letras{
-          width: 20px;
-          margin-left: 2px;
-          margin-right: 2px;
-     }
-     
-     #box-tentativas {
-          width: 550px;
-          height: 30px;
-          margin-top: 20px;
-          padding: 5px 0px;
-          font-size: 1.5em;
+          font-size: 1em;
+          border:1px solid #006400;
      }
      
      #box-resposta {
-          width: 15px;
-          height: 30px;
-          margin-top: 20px;
-          padding: 5px 0px;
-          font-size: 1.2em;
-     }
-     
-     .box-letra {
-          width: 250px;
-          height: 46px;
-          margin: 8.5px;
-          padding: 6px;
-          font-size: 1.8em;
-          cursor:pointer;
+               width: 600px;
+               height: 50px;
+               margin-top: 5px;
+               padding: 10px 0px;
+               font-size: 1.5em;
+               border-radius:5px;
+               margin-bottom: 10px;
           }
-     .box-letra:hover{
-          color:	#FFFAFA;   
-          font-size: 2.0em;
-          cursor:pointer;
-          margin: 8.5px;
-          padding: 2px;
-     }
-     .box-container {
-          width: 95vw;
-     }   
-}
-
-/*Dispositivos small (telefones em modo paisagem, com menos de 768px)*/
-@media (min-width: 767.98px) { 
-    
-}
-
+     
+     
+     
+     /*Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+     
+     
 /*Dispositivos mÊdios (tablets com menos de 992px)*/
-@media (min-width: 991.98px) {
+
          img{
-     height:50px;
+     height:20px;
               
 }
      .box-container {
-          width: 95vw;
-          margin:5px 10px;
+          width: 100vw;
      }
      
      #palavra-secreta{
@@ -178,29 +126,21 @@ img{
           font-size: 1.5em;
      }
      
-     #box-secreta {
-          width: 980px;
-          height: 300px;
-          border: 1px solid 	#006400;
-          margin-top: 30px;
-          padding: 20px;
-          border-radius: 20px;
-          font-size: 2em;
-     }
+     
      
      .box-letra {
-          width: 90px;
-          height: 90px;
+          width: 40px;
+          height: 40px;
           border: 1px solid #006400;
           margin: 10px;
           padding: 10px;
           border-radius: 5px;
-          font-size: 3.5em;
+          font-size: 1em;
      }
      
      .box-letra:hover{
           color:	#FFFAFA;
-          font-size: 4.5em;
+          font-size: 1.5em;
           padding: 2px;
      }
      
@@ -217,18 +157,7 @@ img{
           margin-top: 20px;
           padding: 10px 0px;
           font-size: 2em;
+          text-align: center;
      }
 
-#box-resposta {
-          width: 980px;
-          height: 50px;
-          margin-top: 5px;
-          padding: 10px 0px;
-          font-size: 1.5em;
-          border-radius:5px;
-     }
-}
 
- #tecla- {
-     width: 53%;
-}
